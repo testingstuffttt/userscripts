@@ -3,7 +3,7 @@
 // @author        GSHR
 // @match      https://civicplus.tpondemand.com/*
 // @require http://code.jquery.com/jquery-3.3.1.min.js
-// @version        e.1
+// @version        e.1.0
 // @description        TP Client Name List
 // @run-at      document-end
 // ==/UserScript==
