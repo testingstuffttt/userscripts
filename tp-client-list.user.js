@@ -3,9 +3,10 @@
 // @author        GSHR
 // @match      https://civicplus.tpondemand.com/*
 // @require http://code.jquery.com/jquery-3.3.1.min.js
-// @version        e.1.0
+// @version        e.1
 // @description        TP Client Name List
 // @run-at      document-end
+// @downloadURL      https://gist.github.com/TheEskimonian/3e94bb640294816719628c89b519a1ac
 // ==/UserScript==
 var $ = window.jQuery;
 console.log("Running Script");
