@@ -1,16 +1,17 @@
 // ==UserScript==
 // @name     TP Client Name
-// @author        GSHR.
+// @author        GSHR
 // @match      https://civicplus.tpondemand.com/*
 // @require http://code.jquery.com/jquery-3.3.1.min.js
-// @version        1.1
+// @version        1.0
 // @description        TP Client Name List
 // @run-at      document-end
 // ==/UserScript==
 var $ = window.jQuery;
 console.log("Running Script");
 function createList() {
-    if ($(".custom_field_360008637693").length) {
+    if ($("[name = 'Client Name'").length) {
+        console.log('Click Registered');
         var dlField = document.createElement("datalist");
             dlField.setAttribute("id", "json_datalist");
             document.body.appendChild(dlField);
@@ -2737,5 +2738,3 @@ function checkIfLength3(inputField) {
     }
 }
 */
-
-//Checking if Updates Work
