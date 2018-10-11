@@ -6,7 +6,7 @@
 // @version        e.1.2
 // @description        TP Client Name List
 // @run-at      document-end
-// @downloadURL      https://gist.github.com/TheEskimonian/3e94bb640294816719628c89b519a1ac
+// @downloadURL      https://gist.github.com/TheEskimonian/3e94bb640294816719628c89b519a1ac#file-tp-client-list-user-js
 // ==/UserScript==
 
 var $ = window.jQuery;
