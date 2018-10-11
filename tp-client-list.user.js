@@ -8,12 +8,10 @@
 // @run-at      document-end
 // ==/UserScript==
 var $ = window.jQuery;
-setTimeout(function(){
-    console.log("Working...")
-    document.getElementsByClassName('hd-btn-add')[0].onclick = function() {
-        console.log('Click Registered');
-        setTimeout(function(){
-            var dlField = document.createElement("datalist");
+console.log("Running Script");
+function createList() {
+    if ($(".custom_field_360008637693").length) {
+        var dlField = document.createElement("datalist");
             dlField.setAttribute("id", "json_datalist");
             document.body.appendChild(dlField);
 
@@ -2718,6 +2716,24 @@ setTimeout(function(){
             var datalistVals = document.getElementById('json_datalist');
             datalistVals.innerHTML = options;
             console.log("Done!")
-        }, 5000);
+        setTimeout(createList, 20000);
+                /*
+        $("input[name='Client Name']").on("change keyup input", function() {
+            checkIfLength3(this);
+            console.log("Checking Length of Input");
+        });
+        */
+} else {
+        setTimeout(createList, 1000);
+        //console.log("Field Not Found");
     }
-}, 2000);
+}
+createList();
+/*
+function checkIfLength3(inputField) {
+    console.log(inputField);
+    if ($(inputField).val().length > 2) {
+        // Do things
+    }
+}
+*/
