@@ -5,7 +5,7 @@
 // @exclude        https://fs.civicplus.com*
 // @exclude        https://*.ultipro.com*
 // @match      *://*/*
-// @version        2018.08.20
+// @version        e.1
 // @description        Redirect SAML Sites to Internal Login Page
 // @run-at      document-end
 // ==/UserScript==

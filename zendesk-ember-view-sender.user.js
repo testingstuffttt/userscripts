@@ -3,7 +3,7 @@
 // @author        GSHR
 // @match      *://*/*
 // @require http://code.jquery.com/jquery-3.3.1.min.js
-// @version        2018.09.25
+// @version        e.1
 // @description        Copy Sender Name to Clipboard
 // @run-at      document-start
 // ==/UserScript==
