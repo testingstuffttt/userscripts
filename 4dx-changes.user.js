@@ -3,7 +3,7 @@
 // @author        GSHR
 // @match      *://*/*
 // @require http://code.jquery.com/jquery-3.3.1.min.js
-// @version        e.1
+// @version        1.0
 // @description        4dx Updates
 // @run-at      document-start
 // ==/UserScript==
