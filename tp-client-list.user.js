@@ -3,7 +3,7 @@
 // @author        GSHR.
 // @match      https://civicplus.tpondemand.com/*
 // @require http://code.jquery.com/jquery-3.3.1.min.js
-// @version        1.0
+// @version        1.1
 // @description        TP Client Name List
 // @run-at      document-end
 // ==/UserScript==
@@ -2737,3 +2737,5 @@ function checkIfLength3(inputField) {
     }
 }
 */
+
+//Checking if Updates Work
