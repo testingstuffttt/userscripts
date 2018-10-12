@@ -2,7 +2,7 @@
 // @name     Client_Overdue+Hide_Help
 // @author        GSHR
 // @match      *://*/*
-// @version        1.0
+// @version        1.1
 // @require http://code.jquery.com/jquery-3.3.1.min.js
 // @description        Alerts User if they access a Client Site that is past overdue on payments
 // @run-at      document-end
