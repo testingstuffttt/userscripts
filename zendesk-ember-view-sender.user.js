@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name     ember-view sender
 // @author        GSHR
-// @match      *://*/*
+// @match      *://civicplushelp.zendesk.com/*
 // @require http://code.jquery.com/jquery-3.3.1.min.js
 // @version        1.0
 // @description        Copy Sender Name to Clipboard

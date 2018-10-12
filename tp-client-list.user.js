@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name     TP Client Name
 // @author        GSHR
-// @match      https://civicplus.tpondemand.com/*
+// @match      *://civicplus.tpondemand.com/*
 // @require http://code.jquery.com/jquery-3.3.1.min.js
 // @version        1.0
 // @description        TP Client Name List

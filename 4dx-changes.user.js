@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name     4dx Changes
 // @author        GSHR
-// @match      *://*/*
+// @match      *://www.4dxos.com/*
 // @require http://code.jquery.com/jquery-3.3.1.min.js
 // @version        1.0
 // @description        4dx Updates

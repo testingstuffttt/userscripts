@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name     Zendesk List
 // @author        GSHR
-// @match      https://civicplushelp.zendesk.com/*
+// @match      *://civicplushelp.zendesk.com/*
 // @require http://code.jquery.com/jquery-3.3.1.min.js
 // @version        1.0
 // @description        ZD Client Name - List
