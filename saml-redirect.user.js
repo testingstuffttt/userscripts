@@ -5,6 +5,7 @@
 // @exclude        https://fs.civicplus.com*
 // @exclude        https://*.ultipro.com*
 // @match      *://*/*
+// @downloadURL      https://gist.github.com/TheEskimonian/3e94bb640294816719628c89b519a1ac/raw/saml-redirect.user.js
 // @version        1.0
 // @description        Redirect SAML Sites to Internal Login Page
 // @run-at      document-end
