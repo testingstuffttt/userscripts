@@ -2,12 +2,14 @@
 // @name     Client_Overdue+Hide_Help
 // @author        GSHR
 // @match      *://*/*
-// @version        1.3
+// @version        1.3.1
 // @require http://code.jquery.com/jquery-3.3.1.min.js
-// @description        Alerts User if they access a Client Site that is past overdue on payments
+// @description        Alerts User if they access a Client Site that is past overdue on payments + Hides Help Icon
 // @run-at      document-end
 // ==/UserScript==
 var $ = window.jQuery;
+
+//Overdue clients Array
 
 var overdueClients = [
     "www.anaheim.net",
