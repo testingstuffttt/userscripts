@@ -182,7 +182,7 @@ function checkOverdue() {
         document.body.appendChild(addDiv);        // Append <div> to <body>
         // Add a Span with Text to the Div
         var addSpan = document.createElement("span");        // Create a <div> element
-        var txtNode = document.createTextNode("Client is 60+ Days Overdue");       // Create a text node
+        var txtNode = document.createTextNode(currentClient + " is 60+ Days Overdue");       // Create a text node
         addSpan.appendChild(txtNode);        // Append the text to <div>
         addSpan.style.cssText = 'opacity: 1 !important; color: White;';
         addDiv.appendChild(addSpan);        // Append the text to <div>
