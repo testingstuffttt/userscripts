@@ -2,7 +2,7 @@
 // @name     Client_Overdue+Hide_Help
 // @author        GSHR
 // @match      *://*/*
-// @version        1.2
+// @version        1.2.1
 // @require http://code.jquery.com/jquery-3.3.1.min.js
 // @description        Alerts User if they access a Client Site that is past overdue on payments
 // @run-at      document-end
@@ -10,6 +10,7 @@
 var $ = window.jQuery;
 
 var overdueClients = [
+    "www.google.com",
     "www.anaheim.net",
     "www.uniontownship.com",
     "www.cityofwesthaven.com",
