@@ -3,7 +3,7 @@
 // @author        GSHR
 // @match      *://www.4dxos.com/*
 // @require http://code.jquery.com/jquery-3.3.1.min.js
-// @version        1.1
+// @version        2.0
 // @updateURL   https://gist.github.com/TheEskimonian/3e94bb640294816719628c89b519a1ac/raw/25b561d0989aa038cd32bc604a5c87c8ba1cbdb2/4dx-changes.user.js
 // @downloadURL https://gist.github.com/TheEskimonian/3e94bb640294816719628c89b519a1ac/raw/25b561d0989aa038cd32bc604a5c87c8ba1cbdb2/4dx-changes.user.js
 // @description        4dx Updates
