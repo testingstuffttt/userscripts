@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name     Alert_Client_Overdue+Hide_Help
+// @name     Client_Overdue+Hide_Help
 // @author        GSHR
 // @match      *://*/*
 // @version        1.1
