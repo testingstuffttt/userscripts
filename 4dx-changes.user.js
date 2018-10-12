@@ -4,6 +4,8 @@
 // @match      *://www.4dxos.com/*
 // @require http://code.jquery.com/jquery-3.3.1.min.js
 // @version        1.0
+// @updateURL   https://gist.github.com/TheEskimonian/3e94bb640294816719628c89b519a1ac
+// @downloadURL https://gist.github.com/TheEskimonian/3e94bb640294816719628c89b519a1ac
 // @description        4dx Updates
 // @run-at      document-start
 // ==/UserScript==
