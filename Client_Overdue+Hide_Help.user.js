@@ -2,7 +2,7 @@
 // @name     Client_Overdue+Hide_Help
 // @author        GSHR
 // @match      *://*/*
-// @version        1.3.2
+// @version        1.3.3
 // @downloadURL      https://gist.github.com/TheEskimonian/3e94bb640294816719628c89b519a1ac/raw/Client_Overdue+Hide_Help.user.js
 // @require http://code.jquery.com/jquery-3.3.1.min.js
 // @description        Alerts User if they access a Client Site that is past overdue on payments + Hides Help Icon
