@@ -2,7 +2,7 @@
 // @name     Client_Overdue+Hide_Help
 // @author        GSHR
 // @match      *://*/*
-// @version        1.3.4
+// @version        1.3.5
 // @downloadURL      https://gist.github.com/TheEskimonian/3e94bb640294816719628c89b519a1ac/raw/Client_Overdue+Hide_Help.user.js
 // @require http://code.jquery.com/jquery-3.3.1.min.js
 // @description        Alerts User if they access a Client Site that is past overdue on payments + Hides Help Icon
@@ -184,6 +184,7 @@ function checkOverdue() {
         addDiv.style.cssText = 'font-size: 200px; color: orange; width: 0; height: 0; position: fixed; bottom: 190px; left: 5px; z-index: 1000000; margin-bottom: 0px !important; background-color: white;';
         document.body.appendChild(addDiv);        // Append <div> to <body>
         document.getElementById('hideMe').onclick = function(){
+            alert("Client is 60+ Days Overdue");
             document.getElementById('hideMe').style.display = "none";
         };
 
