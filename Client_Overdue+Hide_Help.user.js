@@ -2,7 +2,7 @@
 // @name     Client_Overdue+Hide_Help
 // @author        GSHR
 // @match      *://*/*
-// @version        1.3.3
+// @version        1.3.4
 // @downloadURL      https://gist.github.com/TheEskimonian/3e94bb640294816719628c89b519a1ac/raw/Client_Overdue+Hide_Help.user.js
 // @require http://code.jquery.com/jquery-3.3.1.min.js
 // @description        Alerts User if they access a Client Site that is past overdue on payments + Hides Help Icon
@@ -176,26 +176,17 @@ function checkOverdue() {
         }
     });
     if (currentClientIsOverdue) {
-        var addDiv = document.createElement("div");        // Create a <div> element
-        addDiv.id = "newDiv";        // Create 'newDiv' ID for <div> element
-        addDiv.style.cssText = 'position: fixed;width: 100%; height: 21px; bottom: 0px; background-color: #af282f; z-index: 10000000; opacity: .7; text-align: center;';
+        $('head').append('<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">')
+        var addDiv = document.createElement("p");        // Create a <div> element
+        addDiv.className = "fa fa-exclamation-triangle";        // Create 'newDiv' ID for <div> element
+        addDiv.id = "hideMe";
+        addDiv.title = "Client is 60+ Days Overdue";
+        addDiv.style.cssText = 'font-size: 200px; color: orange; width: 0; height: 0; position: fixed; bottom: 190px; left: 5px; z-index: 1000000; margin-bottom: 0px !important; background-color: white;';
         document.body.appendChild(addDiv);        // Append <div> to <body>
-        // Add a Span with Text to the Div
-        var addSpan = document.createElement("span");        // Create a <div> element
-        var txtNode = document.createTextNode("Client is 60+ Days Overdue");       // Create a text node
-        addSpan.appendChild(txtNode);        // Append the text to <div>
-        addSpan.style.cssText = 'opacity: 1 !important; color: White;';
-        addDiv.appendChild(addSpan);        // Append the text to <div>
-        // Add a 'Hide' Button
-        var addBtn = document.createElement("button");
-        addBtn.id = "hideMe";
-        addBtn.style.cssText = "float: right; height: 100%; line-height: 1em; opacity: 1 !important;";
-        addDiv.appendChild(addBtn);        // Append the btn to <div>
-        var btnText = document.createTextNode("Hide Me");
-        addBtn.appendChild(btnText);
         document.getElementById('hideMe').onclick = function(){
-            document.getElementById('newDiv').style.display = "none";
+            document.getElementById('hideMe').style.display = "none";
         };
+
     } else {
         console.log(currentClient + " is not overdue.");
     }
