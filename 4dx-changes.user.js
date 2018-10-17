@@ -4,13 +4,10 @@
 // @match      *://www.4dxos.com/*
 // @require http://code.jquery.com/jquery-3.3.1.min.js
 // @downloadURL      https://gist.github.com/TheEskimonian/3e94bb640294816719628c89b519a1ac/raw/4dx-changes.user.js
-// @version        2.0
+// @version        2.1
 // @description        4dx Updates
 // @run-at      document-start
 // ==/UserScript==
-
-
-//Testing Save
 
 var $ = window.jQuery;
 var saveChanges = {
