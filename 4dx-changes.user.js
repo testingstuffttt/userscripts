@@ -4,10 +4,12 @@
 // @match      *://www.4dxos.com/*
 // @require http://code.jquery.com/jquery-3.3.1.min.js
 // @downloadURL      https://github.com/Eskimonian/userscripts/raw/master/4dx-changes.user.js
-// @version        2.1.1
+// @version        2.1.2
 // @description        4dx Updates
 // @run-at      document-start
 // ==/UserScript==
+
+//Location Change
 
 var $ = window.jQuery;
 var saveChanges = {
